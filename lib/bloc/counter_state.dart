@@ -1,12 +1,10 @@
 part of 'counter_bloc.dart';
 
-class CounterState extends Equatable {
+class CounterState {
   CounterState({required this.counterNumber});
   int counterNumber;
-  @override
-  List<Object> get props => [];
-}
 
-class CounterInitial extends CounterState {
-  CounterInitial() : super(counterNumber: 0);
+  @override
+  // TODO: implement props
+  List<Object?> get props => throw UnimplementedError();
 }
